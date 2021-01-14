@@ -37,3 +37,6 @@ if __name__ == '__main__':
   print("populating script!")
   populate(1)
   print('populating compleate!')
+
+## To run it
+# python populate_first_app.py
