@@ -11,4 +11,4 @@ def index(request):
 def users(request):
   user_list = User.objects.order_by('first_name')
   user_dictionary = { 'users': user_list }
-  return render(request, 'first_app/index.html', context=user_dictionary)
+  return render(request, 'first_app/users.html', context=user_dictionary)
